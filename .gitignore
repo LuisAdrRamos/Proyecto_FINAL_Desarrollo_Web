@@ -1,0 +1,16 @@
+# Ignorar node_modules de backend y frontend
+node_modules/
+
+# Ignorar archivos de entorno en backend y frontend
+.env
+.env.local
+.env.development
+.env.production
+
+# Ignorar la carpeta de compilación de frontend
+frontend/dist/
+frontend/build/
+
+# Ignorar logs y dependencias innecesarias
+npm-debug.log
+yarn-error.log
